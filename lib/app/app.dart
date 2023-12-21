@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
 
       ),
-      home: Scaffold(),
+      home:const Scaffold(),
     );
   }
 }
