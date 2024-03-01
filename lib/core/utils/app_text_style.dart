@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:good_chef_app/core/utils/app_colors.dart';
 import 'package:google_fonts/google_fonts.dart';
-
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 TextStyle _textStyle({
   required Color color,
   required double fontsize,
@@ -9,7 +9,7 @@ TextStyle _textStyle({
 }){
   return GoogleFonts.lato(
    color: color,
-   fontSize: fontsize,
+   fontSize: fontsize.sp,
    fontWeight: fontWeight,
   );
 }
